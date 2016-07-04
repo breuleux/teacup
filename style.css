@@ -1,0 +1,46 @@
+
+#expr {
+    width: 100%;
+    height: 300px;
+}
+
+body, textarea, button {
+    font-size: 12pt;
+    font-family: monospace;
+}
+.hover {
+    background-color: #eee;
+}
+.hover .inner {
+    background-color: #fff;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.inner {
+    display: inline-block;
+    border: 1px solid #888;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
+}
+.word {
+    color: #a55;
+    font-weight: bold;
+    padding: 2px;
+}
+.number {
+    color: #008;
+    font-weight: bold;
+    padding: 2px;
+}
+.string {
+    color: #080;
+    font-weight: bold;
+    padding: 2px;
+}
+.op {
+    padding: 3px;
+}
