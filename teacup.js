@@ -78,60 +78,6 @@ Teacup.priorities = {
 };
 
 
-// Teacup.priorities = {
-
-//     // Brackets and control structures
-//     "type:open":     {left: 5,         right: 10004},
-//     "type:middle":   {left: 5,         right: 5},
-//     "type:close":    {left: 10005,     right: 5},
-
-//     // Lists
-//     "\n":            {left: 15,        right: 15},
-//     ";":             {left: 15,        right: 15},
-//     ",":             {left: 25,        right: 25},
-
-//     // Assignment
-//     "=":             {left: 35,        right: 36},
-
-//     // Lambda
-//     "->":            {left: 35,        right: 36},
-
-//     // Comparison and logic
-//     "not":           {left: 105,       right: 10004},
-//     "or":            {left: 115,       right: 114},
-//     "and":           {left: 125,       right: 124},
-//     ">":             {left: 205,       right: 205},
-//     "<":             {left: 205,       right: 205},
-//     ">=":            {left: 205,       right: 205},
-//     "<=":            {left: 205,       right: 205},
-//     "==":            {left: 205,       right: 205},
-
-//     // Range
-//     "..":            {left: 300,       right: 300},
-
-//     // Basic arithmetic
-//     "+":             {left: 505,       right: 504},
-//     "-":             {left: 505,       right: 504},
-//     "prefix:-":      {left: 505,       right: 10004},
-//     "*":             {left: 605,       right: 604},
-//     "/":             {left: 605,       right: 604},
-//     "^":             {left: 705,       right: 706},
-
-//     // Other operators
-//     "type:infix":    {left: 905,       right: 905},
-//     "type:prefix":   {left: 905,       right: 10004},
-
-//     // Field access
-//     ".":             {left: 20005,     right: 1004},
-
-//     // atoms
-//     "type:word":     {left: 20005,     right: 20006},
-//     "type:number":   {left: 20005,     right: 20006},
-//     "type:string":   {left: 20005,     right: 20006},
-// };
-
-
-
 // ROOT ENVIRONMENT
 
 function lazy(fn) { fn.lazy = true; return fn; }
